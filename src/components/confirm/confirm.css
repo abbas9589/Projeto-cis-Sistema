@@ -1,0 +1,54 @@
+.dados-agendamento{
+  background-color: #fff;
+  margin: 20px;
+  border: 1px solid #dddd;
+  
+  box-shadow: 3px 2px 4px 0px rgba(78, 78, 78, 0.1);
+  border-radius: 0.5em;
+}
+
+.confirm-date{
+  display: grid;
+  grid-template-columns: 180px 400px 1fr;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.confirm-date:hover{
+  border: 1px solid #ddd;
+  background: #fafafa;
+}
+
+.dados-agendamento .confirm-date h2{
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.dados-agendamento .confirm-date p{
+  text-align: left;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.confirm-date p.horario {
+  grid-column: 2/4;
+  font-size: 14px;
+}
+
+.confirm-date p.horario {
+  grid-column: 2/4;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.confirm-date strong {
+  grid-column: 2/4;
+  font-size: 18px;
+}
+
+.confirm-date a{
+  padding-right: 30px;
+  text-align: right;
+  font-weight: bold;
+}

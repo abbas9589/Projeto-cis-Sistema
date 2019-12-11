@@ -1,0 +1,26 @@
+.bemvindo {
+
+    background: #fff;
+    border: 1px solid rgb(206, 213, 253);   
+    border-radius: 5px;
+    box-sizing: border-box  ;
+    box-shadow: 3px 2px 4px 0 rgba(78,78,78,0.1); 
+   
+}
+
+.bemvindo .usuario {
+    display:flex;
+    margin: 40px 20px ;
+    align-items: center; 
+   
+}
+.bemvindo p{
+margin: 30px 20px;
+
+}
+.usuario span{
+    margin-left: 15px;  
+    font-size: 1.2rem;
+    color: #333;
+}
+

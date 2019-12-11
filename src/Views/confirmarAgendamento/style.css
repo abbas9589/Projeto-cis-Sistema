@@ -1,0 +1,39 @@
+.confirmar{
+  box-sizing: border-box;
+}
+
+.confirmar img{
+  margin: 40px auto;
+}
+
+.confirmar h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #00939F;
+}
+
+.confirmar p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: .875rem;
+}
+
+ .line{
+  height: 5px;
+  width: 100px;
+  background: #00939F;
+  margin: 20px auto 40px;
+} 
+
+.finalizar{
+  margin: 40px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,30 @@
+.economize{
+    display: grid;
+    grid-template-columns: repeat(1fr*4);
+  }
+  
+  .economize h2{
+    grid-column: 1/5;
+  }
+  .economize img{
+    max-width: 80px;
+  }
+  .economize div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 60px 20px;
+  }
+  .economize h3{
+    font-size: 1rem;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .economize div span{
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 20px;
+  }

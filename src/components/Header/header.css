@@ -1,0 +1,88 @@
+header{
+  /* position: absolute; */
+  width: 100%;
+  z-index: 1;
+  font-size: 0.875rem;
+  transition: all 0.35s ease-out;
+  box-shadow: 3px 2px 4px 0px rgba(78, 78, 78, 0.1);
+
+  background-color: #fff;
+  z-index: 2000;
+}
+
+ #call{
+  visibility: hidden;
+}
+.max-header{
+  height: 100px;
+}
+.min-header{
+  height: 80px;
+}
+.container-menu {
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  padding: 0 1rem;
+  grid-template-areas:
+      "lgo ... nav";
+  grid-template-columns: auto 1fr auto;
+  align-items: center;;
+}
+
+.logo {
+  grid-area: lgo;
+
+}
+
+.logo img{
+  transition: all 0.35s ease-out;
+}
+
+.max-logo img{
+  width: 280px;
+  min-width: 170px;
+}
+
+.min-logo img{
+  width: 260px;
+}
+
+/* Menu  */
+
+.nav-bar{
+  grid-area: nav;
+  margin: auto;
+}
+.nav-bar ul {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: auto;
+
+}
+
+.nav-bar a img{
+  margin: 1em;
+}
+
+.nav-bar a{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+
+  font-size: .875rem;
+  font-weight: 700;
+  color: #00939F;
+
+  transition: all 0.35s ease-out
+
+}
+
+.max-nav li{ 
+  font-size: 1em;
+}
+
+.min-nav li{
+  font-size: 0.875em;
+}

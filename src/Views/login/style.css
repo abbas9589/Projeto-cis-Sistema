@@ -1,0 +1,40 @@
+.login-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid #ddd;
+    height: 400px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    box-shadow: 3px 2px 4px 0px rgba(78, 78, 78, 0.1);
+}
+.login-grid .bg-login{
+    background-size:cover ;
+    background-image:url(./bg-login.svg) ;
+    padding: 50px;
+    padding-right: 80px ;
+    align-items: center;
+    justify-content: center;
+}
+.bg-login h2{
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dados-login{
+    display:flex ;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px 50px;
+    box-sizing: border-box;
+}
+.dados-login input{
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1.2px solid #ddd;
+}
+
+.dados-login strong{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

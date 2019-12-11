@@ -1,0 +1,23 @@
+
+.style-gride{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 20px 35px;
+}
+.notifica{
+    display: flex;
+    width: 100%;
+    background: #E3F3DA;
+    padding: 10px 20px;
+    margin: 15px 0;
+    align-items: center;
+    border: 1px solid rgba(141, 166, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.notifica img{
+    margin: 5px 10px 5px 0;
+}
+
+

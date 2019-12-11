@@ -1,0 +1,38 @@
+img[alt="MrRobot"]{
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+}
+
+.error h1{
+  color: #86B300; 
+  background: #eee;
+  margin: 10px 0;
+  padding: 5px 20px;
+  font-size: 28px;
+}
+
+.error h2 {
+  color: #707a84;
+  font-size: 2.4em;
+  margin-top: 20px;
+}
+
+.error span {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #707a84;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  
+}

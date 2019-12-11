@@ -1,0 +1,68 @@
+.bg-sucess{
+  display: grid;
+  grid-template-columns: 10px 1fr 320px;
+
+  background: #fff;
+  box-shadow: 3px 2px 4px 0px rgba(78, 78, 78, 0.1);
+  border: 1px solid #ddd;
+  margin: 20px 0 40px;
+}
+
+.container .sub {
+  margin: 20px 0;
+}
+
+.line-y{
+  background: #029E52;
+  width: 100%;
+}
+
+
+.pgto{
+  padding: 40px;
+}
+.pgto h2{
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #00939F;
+}
+
+.pgto p{
+  line-height: 24px;
+}
+
+.bg-sucess span{
+  line-height: 21px;
+  font-size: 14px;
+  color: #999;
+}
+
+.servicos{
+  background: #fafafa;
+  border-left: 1px solid #3331;
+  padding: 30px 40px;
+}
+
+.servicos h2{
+  color: #00939F;
+  font-size: 1.3rem;;
+  padding-bottom: 15px;
+}
+
+p.destak {
+  padding: 15px 0;
+  color: #00939F;
+}
+
+p.endereco{
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 0;
+}
+
+.servicos a{
+  text-decoration: none;
+  color: #00939F;
+  text-transform: uppercase;
+  font-weight: bold;
+}

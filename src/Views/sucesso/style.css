@@ -1,0 +1,61 @@
+.dados{
+    grid-row: 1/10;
+    height: 500px;
+    background: #ffff;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+}
+.dados h2{
+    margin-left: 10px;
+    padding: 20px;
+    color: #016294;
+}
+aside input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #3331;
+}
+aside select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #3331;
+}
+.checker{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.checker{
+    margin: 10px;
+}
+.checker input{
+    width: auto;
+    transform: scale(1.8);
+    margin-right: 12px;
+}
+.checker p {
+    font-weight: bold;
+    color: #016294;
+    font-size: 16px;
+}
+.checker label{
+    font-size: 14px;
+    color: #016294;
+}
+aside .ab{
+    padding: 10px 20px;
+}
+.busca{
+    width: 620px;
+    height: 368px;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);}
+aside h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}

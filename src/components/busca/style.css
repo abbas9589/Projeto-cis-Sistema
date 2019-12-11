@@ -1,0 +1,23 @@
+.buscador{
+    display: grid;
+    grid-template-columns: 680px 1fr;
+    background: #F5F5F5;
+    width: 910px;
+    height: 95px;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+    padding: 20px 30px;
+    margin: 20px 0;
+    align-items: center;
+    box-shadow: 3px 2px 4px 0px rgba(78, 78, 78, 0.1);
+}
+.buscador select{
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 5px;
+    transition: all 5s;
+}
+.buscador option{
+    border: 1px solid #ddd;
+}
+

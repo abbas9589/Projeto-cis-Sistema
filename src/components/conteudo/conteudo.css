@@ -1,0 +1,55 @@
+
+aside h2{
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+    color: #016294;
+}
+aside h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+aside input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #3331;
+}
+.mainaside .box{
+    padding: 10px 20px;
+    font-style: normal;
+}
+.mainaside{
+    grid-area: aside;
+    /* position: absolute; */
+    width: 300px;
+    height: 465px;
+    left: 250px;
+    top: 110px;
+    background: #ffff;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.checando {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.checando input{
+    width: auto;
+    transform: scale(1.8);
+    margin-right: 12px;
+}
+.checando p {
+    font-weight: bold;
+    color: #016294;
+    font-size: 16px;
+}
+.checando label{
+    font-size: 14px;
+    color: #016294;
+}
+.mainaside .checando {
+    margin-bottom: 15px;
+}

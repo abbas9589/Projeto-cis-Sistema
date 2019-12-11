@@ -1,0 +1,92 @@
+
+.carrosel {
+  font-size: 20px;
+  background-image: url(./bg4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.carrosel section{
+  display: grid;
+  align-content: center;
+  height: 100vh;
+  margin-bottom: 20px;
+}
+.carrosel section h1{
+  font-size: 2.25rem ;
+  margin: 20px 0;
+}
+.carrosel section span{
+  font-size: 1rem;
+}
+.container .subtitulo{
+  text-align: center;
+}
+.opcoes{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.opcoes div{
+  height: 150px;
+  background: #999;
+  border-radius: 5px;
+}
+.consultas{
+  margin-top:100px ;
+  position: relative;
+  display: flex;
+}
+.consultas .right{
+    margin-top: 40px;
+    width: 430px;
+    height: 100%;
+    float: right;
+    padding: 20px 0;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.consultas .linha{
+  float: right;
+  line-height:0;
+  width:0;
+  height:0;
+  border-style: solid;
+  border-color: transparent#C0EAFF #FDC73E;
+  border-width: 270px 70px 0px 0px;
+  
+}
+.consultas .left{
+  margin-top: 40px;
+  width: 500px;
+  height: 100%;
+  padding: 20px;
+  padding-right: 100px;
+  box-sizing: border-box;  
+}
+.orange{
+  background: #FDC73E;
+}
+.consultas span{
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+}
+.consultas h2{
+  margin-bottom: 20px;
+}
+.popular {
+width: 50%;
+height: 270px;
+background: #FDC73E;
+}
+.social {
+  width: 50%;
+  height: 270px;
+  background: #C0EAFF;
+  }
+
+
+
+
+
+

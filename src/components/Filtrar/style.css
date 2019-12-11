@@ -1,0 +1,66 @@
+.dadosfiltro{
+    grid-row: 1;
+    max-height: 560px;
+    padding: 30px 20px;
+    background: #ffff;
+    border: 1px solid #dddddd;
+    border-radius: 0.5rem;
+    box-shadow: 3px 2px 4px 0px rgba(78, 78, 78, 0.1);
+    box-sizing: border-box !important;
+}
+.dadosfiltro h2{
+    margin-bottom:30px ;
+    color: #016294;
+}
+.res input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.res{
+    margin: 30px 0; 
+    font-size: 16px;
+    
+
+}
+.res select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.checker{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.checker input{
+    width: auto;
+    transform: scale(1.8);
+    margin-right: 12px;
+}
+.checker p {
+    font-weight: bold;
+    color: #016294;
+    font-size: 16px;
+}
+.checker label{
+    font-size: 14px;
+    color: #016294;
+}
+.busca{
+    width: 620px;
+    height: 368px;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);}
+
+.res h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
